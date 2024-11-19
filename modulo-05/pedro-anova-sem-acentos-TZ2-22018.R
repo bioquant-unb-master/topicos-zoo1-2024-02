@@ -52,7 +52,8 @@ View(frutos)
 
 # Visualisemos nossos dados...
 plot(prod ~ fat, data = frutos)
-
+ggplot(frutos, aes(x=fat, y=prod)) + 
+  geom_bar(stat= "identity")
 # Premissas
 # 1. Normalidade
 shapiro.test(jatoba)
