@@ -107,9 +107,11 @@ local
 frutos2 <- data.frame(fat2, local, prod2)
 frutos2
 par(mfrow = c(1,2))
-plot(prod2 ~ fat2+local, data = frutos2)
+ggplot(frutos2, aes(x=fat2, y=prod2, fill=local)) + 
+  geom_boxplot()
 
-  # 1. Normalidade
+  
+# 1. Normalidade
     # 1.1. Normalidade do fator especie
 
 
