@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="poligonoco" id="poligonoco">
+	<SimpleField name="id" type="float"></SimpleField>
+</Schema>
+<Folder><name>poligonoco</name>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#poligonoco">
+		<SimpleData name="id">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-47.8636754405829,-15.7582991419375 -47.8556114586124,-15.7587998448387 -47.8549053956749,-15.7591396068185 -47.8541064297193,-15.7615536887228 -47.8497585684725,-15.7665784634292 -47.8486251516518,-15.7704766015231 -47.8508362434824,-15.7719070921301 -47.8643443423132,-15.759962186099 -47.8636754405829,-15.7582991419375</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>
